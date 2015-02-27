@@ -1,0 +1,25 @@
+/target/
+bin/
+gen/
+.settings/
+.DS_Store
+proguard/
+#build.xml
+#build.properties
+ant.properties
+local.properties
+pkgs/
+output*/
+temp/
+
+# for IntelliJ IDEA description files
+*.iml
+.idea
+*.idb
+
+# other files
+*~
+*.swp
+*.orig
+.classpath
+
