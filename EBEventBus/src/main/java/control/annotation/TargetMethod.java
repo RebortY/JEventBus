@@ -23,7 +23,7 @@ import eb.eventbus.ThreadMode;
 /**
  * 订阅某个事件的函数类,包含了函数信息、参数名、执行的线程模式
  * 
- * @author mrsimple
+ * @author yangll
  */
  public class TargetMethod{
     /**
