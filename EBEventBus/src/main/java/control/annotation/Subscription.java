@@ -23,7 +23,7 @@ import eb.eventbus.ThreadMode;
 /**
  * 订阅者对象,包含订阅者和目标方法
  * 
- * @author mrsimple
+ * @author yangll
  */
 public class Subscription {
     /**
