@@ -1,5 +1,6 @@
 # JEventBus
 基于EventBus增加tag, threadMode支持，去掉了繁琐的onEvent的方法开头，采用注解
+
 #https://github.com/greenrobot/EventBus 原项目地址
 优势和好处，就不在这里赘述，可以看一下原项目的介绍。
 在原项目的基础上，做了一些修改
@@ -11,8 +12,7 @@
 
 使用方法：
 
-//参数标示，是否向父类传递 true向父类传递，false 不传递
-EBEventBus  bus = EBEventBus.createEventBus(true); 
+EBEventBus  bus = EBEventBus.createEventBus(true); //参数标示，是否向父类传递 true向父类传递，false 不传递
 bus.register(this);  //注册可以是任意对象
   
   //以描述代替固定的方法名字 
