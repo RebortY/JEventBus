@@ -11,7 +11,7 @@
 
 
 使用方法：
-
+```java
 EBEventBus  bus = EBEventBus.createEventBus(true); //参数标示，是否向父类传递 true向父类传递，false 不传递
 bus.register(this);  //注册可以是任意对象
   
@@ -23,7 +23,7 @@ bus.register(this);  //注册可以是任意对象
 	//发送事件有两种方法
 	bus.post( new Event(), "hello");
 	bus.post( new Event() );
-	
+```	
 存在的问题，对于stickEvent 还没有做很好的支持。
 有兴趣的朋友，可以fork 一份修改。
 
